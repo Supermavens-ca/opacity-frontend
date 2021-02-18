@@ -11,7 +11,6 @@ These instructions will get you a copy of the project up and running on your loc
 Clone the repo
 
 ```
-git clone https://github.com/opacity/webinterface.git
 ```
 
 Install dependencies
@@ -35,7 +34,7 @@ Navigate to url
 Clone the repo
 
 ```
-git clone https://github.com/opacity/webinterface.git
+
 ```
 
 Install dependencies
@@ -94,12 +93,12 @@ https://docs.cypress.io/guides/references/best-practices.html
 
 ## Deployment
 
-Save the Opacity SSH Key for AWS (found on 1password) in ~/.ssh/opacity.pem
+
 
 SSH into server
 
 ```
-ssh ubuntu@18.218.209.199 -i ~/.ssh/opacity.pem
+
 ```
 
 Run these commands
@@ -119,18 +118,12 @@ git pull
 
 ## Project Status
 
-- [Travis CI Builds](https://travis-ci.org/opacity/webinterface) - Build Report
 - [E2E Test Dashboard (Cypress)](https://www.cypress.io/) - E2E test results
-- [Code Climate](https://codeclimate.com/github/opacity/webinterface) - Reports code coverage, maintainability, and trends
 
 ## Contributing
-
-Please read [CONTRIBUTING.md](https://github.com/opacity/webinterface/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+process for submitting pull requests to us.
 
 ## Versioning
 
 We use [SemVer](http://semver.org/) for versioning.
 
-## Authors
-
-See also the list of [contributors](https://github.com/opacity/webinterface/graphs/contributors) who participated in this project.
